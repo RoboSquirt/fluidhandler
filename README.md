@@ -28,4 +28,4 @@ Source Java code can be found here: https://github.com/RoboSquirt/java
 Source Arduino code can be found here: https://github.com/RoboSquirt/arduino
 
 #Remarks
-Finally, a reminder. Remember that _you_ are building RoboFlow. At this point, there are no plans whatsoever in selling kits, either premade or not. Even when RoboFlow is built, it is not necessarily plug-and-play...you may need to fiddle with constants / the setup to get what is right for you and your lab. It's more than just something you make and forget -- it's a learning experience. 
+Finally, a reminder. Remember that _you_ are building RoboFlow. At this point, there are no plans whatsoever in selling kits, either premade or not. Even when RoboFlow is built, it is not necessarily plug-and-play...you may need to fiddle with constants / the setup to get what is right for you and your lab. It's more than just something you make and forget -- it's a learning experience. What we hope is that you take what we have as a jump-start, share your findings with the community, and contribute in making it even better for those that make it after you. 
