@@ -26,3 +26,6 @@ All documentation for RoboFlow can be found in this repository's wiki pages. If 
 Source Java code can be found here: https://github.com/RoboSquirt/java
 
 Source Arduino code can be found here: https://github.com/RoboSquirt/arduino
+
+#Remarks
+Finally, a reminder. Remember that _you_ are building RoboFlow. At this point, there are no plans whatsoever in selling kits, either premade or not. Even when RoboFlow is built, it is not necessarily plug-and-play...you may need to fiddle with constants / the setup to get what is right for you and your lab. It's more than just something you make and forget -- it's a learning experience. 
