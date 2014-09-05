@@ -4,14 +4,14 @@ RoboFlow
 Welcome to the repository for RoboFlow! The RoboFlow project is intended as a low-cost, open source solution to tedious, time-consuming, or previously impossible laboratory fluid handling tasks. If this sounds useful to you, read on!
 
 A few quick facts about RoboFlow:
-- Cost less than $X
-- other specs
-- Software, specs, etc. all freely available here.
-- Build and operate yourself. There are no pre-made kits available.
-- In order to build the frame, you will need to have access to a 3-D printer and laser cutter.
+- Costs less than $350
+- Incorporates homemade syringe pump that can consistently dispense as little as 10uL
+- Completely open source (schematics and code all available right here)
+- Build and operate yourself!
 
 #General Overview
-On a high level, RoboFlow physically consists of 3 stepper motors that move a nozzle around in the x-y plane, a servo that moves this nozzle in the z-direction, and a syringe pump that withdraws and dispenses fluid at the nozzle. The syringe "pump" is really just another stepper motor, connected to a lead screw that pushes/pulls on a syringe when the motor turns. The movement motors and servo are housed on a box-like frame, and the syringe pump stands outside of this area. (picture showing frame and stand)
+On a high level, RoboFlow physically consists of 3 stepper motors that move a nozzle around in the x-y plane, a servo that moves this nozzle in the z-direction, and a syringe pump that withdraws and dispenses fluid at the nozzle. The syringe "pump" is really just another stepper motor, connected to a lead screw that pushes/pulls on a syringe when the motor turns. The movement motors and servo are housed on a box-like frame, and the syringe pump stands outside of this area. 
+![entire physical system](https://dl.dropboxusercontent.com/u/10315102/RoboFlow%20Images/Home/entire-physical-system.jpg)
 
 These motors (and the servo) are all controlled by motor carrier chips, housed on either a PCB or breadboard. These motor carriers receive input from an Arduino Mega 2560. The Arduino, in turn, receives input (through its serial monitor) from a Java program running on your computer.
 
@@ -20,7 +20,7 @@ In a typical execution of RoboFlow, you design your experiment on the Java progr
 #Getting Started
 This is the main "portal" repository for RoboFlow -- the application, build manual, etc. can be obtained by downloading this repository as a zip and unpacking it. Any questions, comments, or thoughts on the device should be directed to the [google group forums] (https://groups.google.com/forum/#!forum/roboflow).
 
-All documentation for RoboFlow can be found in this repository's wiki pages. If you've decided you want to try RoboFlow for yourself, you should start off with the [Getting Started] (https://github.com/RoboSquirt/fluidhandler/wiki/Getting-Started) page, which contains information regarding building the device and setting up the software. From there, it is helpful to look into the [Navigating the GUI] () page.
+All documentation for RoboFlow can be found in this repository's wiki pages. If you've decided you want to try RoboFlow for yourself, you should start off with the [Getting Started] (https://github.com/RoboSquirt/fluidhandler/wiki/Getting-Started) page, which contains information regarding building the device and setting up the software. From there, it is helpful to look into the [Navigating the GUI] () page. Note that in order to build the frame, you will need to have access to a #-D printer and laser cutter.
 
 
 Source Java code can be found here: https://github.com/RoboSquirt/java
