@@ -20,7 +20,7 @@ In a typical execution of RoboFlow, you design your experiment on the Java progr
 #Getting Started
 This is the main "portal" repository for RoboFlow -- the application, build manual, etc. can be obtained by downloading this repository as a zip and unpacking it. Any questions, comments, or thoughts on the device should be directed to the [google group forums] (https://groups.google.com/forum/#!forum/roboflow).
 
-All documentation for RoboFlow can be found in this repository's wiki pages. If you've decided you want to try RoboFlow for yourself, you should start off with the [Getting Started] (https://github.com/RoboSquirt/fluidhandler/wiki/Getting-Started) page, which contains information regarding building the device and setting up the software. From there, it is helpful to look into the [Navigating the GUI] () page. Note that in order to build the frame, you will need to have access to a #-D printer and laser cutter.
+All documentation for RoboFlow can be found in this repository's wiki pages. If you've decided you want to try RoboFlow for yourself, you should start off with the [Getting Started] (https://github.com/RoboSquirt/fluidhandler/wiki/Getting-Started) page, which contains information regarding building the device and setting up the software. From there, it is helpful to look into the [Navigating the GUI] () page. Note that in order to build the frame, you will need to have access to a 3D printer and laser cutter.
 
 
 Source Java code can be found here: https://github.com/RoboSquirt/java
